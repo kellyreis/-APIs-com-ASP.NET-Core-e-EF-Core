@@ -38,6 +38,18 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.ResponseCompression": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.9, )"
@@ -59,6 +71,10 @@
             "Microsoft.EntityFrameworkCore.Tools.DotNet": {
               "target": "Package",
               "version": "[1.0.0-preview3-final, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             }
           },
           "imports": [

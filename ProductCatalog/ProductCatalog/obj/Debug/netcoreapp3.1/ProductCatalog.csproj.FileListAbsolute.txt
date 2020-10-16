@@ -6,8 +6,6 @@ C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\Prod
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.AssemblyInfoInputs.cache
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.AssemblyInfo.cs
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.RazorTargetAssemblyInfo.cache
-C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\staticwebassets\ProductCatalog.StaticWebAssets.Manifest.cache
-C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\staticwebassets\ProductCatalog.StaticWebAssets.xml
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
@@ -57,7 +55,6 @@ C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\Prod
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Microsoft.DotNet.Cli.Utils.dll
-C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Microsoft.DotNet.ProjectModel.dll
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\dotnet-ef.dll
@@ -88,5 +85,13 @@ C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\Prod
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.dll
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.pdb
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.genruntimeconfig.cache
-C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.csproj.CoreCompileInputs.cache
-C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.RazorAssemblyInfo.cache
+C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.RazorAssemblyInfo.cs
+C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Flunt.dll
+C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\libman.json
