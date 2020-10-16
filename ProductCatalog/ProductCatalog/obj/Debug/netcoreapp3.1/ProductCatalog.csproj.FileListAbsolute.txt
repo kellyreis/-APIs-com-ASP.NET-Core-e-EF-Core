@@ -93,3 +93,5 @@ C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\Prod
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.RazorAssemblyInfo.cache
 C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.RazorAssemblyInfo.cs
+C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\Flunt.dll
+C:\Users\kelly.reis\Desktop\-APIs-com-ASP.NET-Core-e-EF-Core\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\libman.json

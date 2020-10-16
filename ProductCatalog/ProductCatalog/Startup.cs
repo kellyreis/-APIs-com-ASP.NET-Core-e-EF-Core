@@ -17,10 +17,18 @@ namespace ProductCatalog
        
         public void ConfigureServices(IServiceCollection services)
         {
+            //Comprimir as requisições
+            services.AddResponseCompression();
+            services.AddSwaggerGen(x =>
+            {
+                x.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "My Api", Version = "1" });
+            });
             services.AddMvc();
             services.AddScoped<StoreDataContext, StoreDataContext>();
             services.AddTransient<ProductRepositorie, ProductRepositorie>();
             services.AddTransient<CategoryRepositorie, CategoryRepositorie>();
+       
+        
         }
 
       
@@ -32,7 +40,7 @@ namespace ProductCatalog
             }
           
             app.UseRouting();
-         
+   
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
@@ -40,7 +48,15 @@ namespace ProductCatalog
                     await context.Response.WriteAsync("Hello World!");
                 });
             });
+         
+            app.UseResponseCompression();
 
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My Api - V1");
+            });
+            
             
         }
     }

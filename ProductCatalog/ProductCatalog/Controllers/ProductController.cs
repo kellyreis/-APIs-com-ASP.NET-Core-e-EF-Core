@@ -22,7 +22,8 @@ namespace ProductCatalog.Controllers
 
         [Route("v1/products")]
         [HttpGet]
-
+        //trabalha na requisição do cache
+        [ResponseCache(Location = ResponseCacheLocation.Client, Duration = 60)]
         public IEnumerable<ListProductViewModel> Get()
         {
             return _repositorie.Get();
@@ -31,7 +32,8 @@ namespace ProductCatalog.Controllers
 
         [Route("v1/products/{id}")]
         [HttpGet]
-
+        //trabalha na requisição do cache
+        [ResponseCache(Duration = 60)]
         public Product Get(int id)
         {
             return _repositorie.Get(id);
@@ -39,6 +41,8 @@ namespace ProductCatalog.Controllers
 
         [Route("v1/products")]
         [HttpPost]
+        //trabalha na requisição do cache
+      
         public ResultViewModel Post([FromBody]EditorProductViewModel model)
         {
             model.Validate();
@@ -73,9 +77,27 @@ namespace ProductCatalog.Controllers
         
         }
 
+        //Versionamento
+        [Route("v2/products")]
+        [HttpPost]
+
+        public ResultViewModel Post([FromBody] Product product)
+        {          
+
+            _repositorie.Save(product);
+
+            return new ResultViewModel
+            {
+                Sucess = true,
+                Message = "Produto cadastrado com sucesso!",
+                Data = product
+            };
+
+        }
+
         [Route("v1/products")]
         [HttpPut]
-
+   
         public ResultViewModel Put([FromBody] EditorProductViewModel model)
         {
             model.Validate();

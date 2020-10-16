@@ -21,7 +21,8 @@ namespace ProductCatalog.Controllers
 
         [Route("v1/categories")]
         [HttpGet]
-
+        //trabalha na requisição do cache
+        [ResponseCache(Duration = 60)]
         public IEnumerable<Category> Get()
         {
           return  _repositorie.Get();
@@ -55,7 +56,7 @@ namespace ProductCatalog.Controllers
 
         [Route("v1/categories")]
         [HttpPut]
-
+    
         public Category Put([FromBody] Category category)
         {
             _repositorie.Update(category);
@@ -65,7 +66,7 @@ namespace ProductCatalog.Controllers
 
         [Route("v1/categories")]
         [HttpDelete]
-
+  
         public Category Delete([FromBody] Category category)
         {
             _repositorie.Delete(category);
